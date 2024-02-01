@@ -25,7 +25,7 @@ spec:
   datacenterRef:
     kind: CloudStackDatacenterConfig
     name: main-i-0e89e-e8c62d0
-  eksaVersion: v0.0.0-dev+build.8303
+  eksaVersion: v0.0.0-dev+build.8304
   externalEtcdConfiguration:
     count: 1
     machineGroupRef:
@@ -41,7 +41,7 @@ spec:
   managementCluster:
     name: main-i-0e89e-e8c62d0
   workerNodeGroupConfigurations:
-  - count: 3
+  - count: 1
     machineGroupRef:
       kind: CloudStackMachineConfig
       name: main-i-0e89e-e8c62d0
